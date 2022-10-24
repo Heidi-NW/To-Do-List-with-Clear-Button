@@ -1,0 +1,38 @@
+main {
+  margin: 3rem auto;
+  max-width: 90vw;
+  width: 40ch;
+}
+
+ul {
+  margin: 0.5rem auto;
+  font-size: 1.75rem;
+}
+
+ul li {
+  margin: 0.5rem 0;
+}
+#shopping-form {
+  display:flex;
+  align-items: center;
+}
+
+#addBtn {
+  background-color: rgb(44, 225, 189);
+  display: flexbox;
+  justify-content: flex-end;
+  align-items: center;
+  width: 10ch;
+  height: 5ch;
+  margin: 5px;
+}
+
+#clearBtn {
+  background-color: brown;
+  display: flexbox;
+  justify-content: flex-end;
+  align-items: center;
+  width: 10ch;
+  height: 5ch;
+  margin: 5px;
+}
