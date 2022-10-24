@@ -1,28 +1,27 @@
-body {
+main {
+  margin: .5rem auto;
+  max-width: 100vw;
+  width:30ch;
   font-size: 35px;
 }
 
-main {
-  margin: 3rem auto;
-  max-width: 100vw;
-  width:40ch;
-}
-
-ul {
+/* ul {
   margin: 0.5rem auto;
   font-size: 1.75rem;
-}
+} */
 
-ul li {
+/* ul li {
   margin: 0.5rem 0;
-}
+  font-size: 35px;
+} */
+
 #shopping-form {
-  display:flex;
+  display:inline-block;
   align-items: center;
 }
 
 input {
-  width: 15ch;
+  width: 10ch;
   height: 7ch;
   margin: 10px;
   font-weight: bold;
@@ -33,9 +32,9 @@ input {
   display: flexbox;
   justify-content: flex-end;
   align-items: center;
-  width: 10ch;
-  height: 8ch;
-  margin: 10px 10px 10px 20px;
+  width: 200px;
+  height: 50px;
+  margin: 10px 125px 10px 0px;
   font-weight: bold;
 }
 
@@ -44,8 +43,8 @@ input {
   display: flexbox;
   justify-content: flex-end;
   align-items: center;
-  width: 10ch;
-  height: 8ch;
-  margin: 10px;
+  width: 200px;
+  height: 50px;
+  margin: 10px 0px 10px 100px;
   font-weight: bold;
 }
