@@ -27,24 +27,23 @@ input {
   font-weight: bold;
 }
 
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 #addBtn {
   background-color: rgb(44, 225, 189);
-  display: flexbox;
-  justify-content: flex-end;
-  align-items: center;
   width: 200px;
   height: 50px;
-  margin: 10px 125px 10px 0px;
+  margin: 10px 20px 10px 0px;
   font-weight: bold;
 }
 
 #clearBtn {
   background-color: brown;
-  display: flexbox;
-  justify-content: flex-end;
-  align-items: center;
   width: 200px;
   height: 50px;
-  margin: 10px 0px 10px 100px;
   font-weight: bold;
 }
