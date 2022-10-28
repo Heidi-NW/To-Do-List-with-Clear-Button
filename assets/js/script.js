@@ -1,32 +1,32 @@
-var shoppingFormEl = $('#shopping-form');
-var shoppingListEl = $('#shopping-list');
+var numFormEl = $('#num-form');
+var numListEl = $('#num-list');
 
 // create function to handle form submission
 function handleFormSubmit(event) {
   event.preventDefault();
 
   // select form element by its `name` attribute and get its value
-  var shoppingItem = $('input[name="shopping-input"]').val();
+  var numItem = $('input[name="num-input"]').val();
 
   // if there's nothing in the form entered, don't print to the page
-  if (!shoppingItem) {
-    console.log('No shopping item filled out in form!');
+  if (!numItem) {
+    console.log('No number filled out in form!');
     return;
   }
 
   // print to the page
-  shoppingListEl.append('<li>' + shoppingItem + '</li>');
+  numListEl.append('<li>' + numItem + '</li>');
 
   // clear the form input element
-  $('input[name="shopping-input"]').val('');
+  $('input[name="num-input"]').val('');
 }
 
 // Clear List
 $("#clearBtn").click(function(){
-  $("#shopping-list").remove();
+  $("#num-list").empty();
 })
 
 // Create a submit event listener on the form element
-shoppingFormEl.on('submit', handleFormSubmit);
+numFormEl.on('submit', handleFormSubmit);
 
 
